@@ -9,40 +9,48 @@ Basicamente el problema: los minoristas de alimentos siempre se están quedando 
 
 # Explicación de los datos.
 
-Item_Identifier              object     Identificación única del producto.
-Item_Weight                  float64     Peso del producto.
-Item_Fat_Content              object     Si el producto es bajo en grasa o regular.
-Item_Visibility              float64     Porcentaje de la superficie total de exposición de todos los productos de una tienda asignada al producto concreto.
-Item_Type                     object     Categoría a la que el producto pertenece.
-Item_MRP                     float64     Precio máximo de venta al público (precio de catálogo) del producto.
-Outlet_Identifier             object     Identificación única de la tienda.
-Outlet_Establishment_Year      int64     El año en que se estableció la tienda.
-Outlet_Size                   object     El tamaño de la tienda en cuanto al área total.
-Outlet_Location_Type          object     El tipo de área donde se encuentra la tienda
-Outlet_Type                   object     Si el punto de venta es una tienda de comestibles o algún tipo de supermercado.
-Item_Outlet_Sales            float64     Ventas del producto en una tienda particular. Es la variable objetivo a predecir.
+Item_Identifier /             object  /   Identificación única del producto. </p>
+Item_Weight      /            float64  /   Peso del producto.</p>
+Item_Fat_Content  /            object  /   Si el producto es bajo en grasa o regular. </p>
+Item_Visibility    /          float64  /   Porcentaje de la superficie total de exposición de todos los productos de una tienda asignada al producto concreto. </p>
+Item_Type           /          object  /   Categoría a la que el producto pertenece. </p>
+Item_MRP            /         float64  /   Precio máximo de venta al público (precio de catálogo) del producto. </p>
+Outlet_Identifier   /          object  /   Identificación única de la tienda. </p>
+Outlet_Establishment_Year/      int64  /   El año en que se estableció la tienda. </p>
+Outlet_Size         /          object  /   El tamaño de la tienda en cuanto al área total. </p>
+Outlet_Location_Type/          object  /   El tipo de área donde se encuentra la tienda. </p>
+Outlet_Type          /         object  /   Si el punto de venta es una tienda de comestibles o algún tipo de supermercado. </p>
+Item_Outlet_Sales    /        float64  /   Ventas del producto en una tienda particular. Es la variable objetivo a predecir. </p>
 dtype: object
 
-![alt text](http://url/to/img.png)
 
-RangeIndex: 8523 entries, 0 to 8522
-Data columns (total 13 columns):
- N   Column                     Non-Null Count  Dtype  
----  ------                     --------------  -----  
- 0   Item_Identifier            8523 non-null   object 
- 1   Item_Weight                8523 non-null   float64
- 2   Item_Fat_Content           8523 non-null   object 
- 3   Item_Visibility            8523 non-null   float64
- 4   Item_Type                  8523 non-null   object 
- 5   Item_MRP                   8523 non-null   float64
- 6   Outlet_Identifier          8523 non-null   object 
- 7   Outlet_Establishment_Year  8523 non-null   int64  
- 8   Outlet_Size                8523 non-null   object 
- 9   Outlet_Location_Type       8523 non-null   object 
- 10  Outlet_Type                8523 non-null   object 
- 11  Item_Outlet_Sales          8523 non-null   float64
- 12  Sold_Units                 8523 non-null   float64
-dtypes: float64(5), int64(1), object(7)
+</p><br>
+RangeIndex: 8523 entries, 0 to 8522 </p>
+Data columns (total 13 columns): </p>
+ N   Column          /           Non-Null Count / Dtype   </p> 
+ 0   Item_Identifier  /          8523 non-null  / object  </p>
+ 1   Item_Weight       /         8523 non-null  / float64 </p>
+ 2   Item_Fat_Content   /        8523 non-null  / object  </p>
+ 3   Item_Visibility    /        8523 non-null  / float64 </p>
+ 4   Item_Type          /        8523 non-null  / object </p>
+ 5   Item_MRP           /        8523 non-null  / float64 </p>
+ 6   Outlet_Identifier  /        8523 non-null  / object </p>
+ 7   Outlet_Establishment_Year /  8523 non-null /  int64  </p>
+ 8   Outlet_Size        /        8523 non-null  / object </p>
+ 9   Outlet_Location_Type /      8523 non-null  / object </p>
+ 10  Outlet_Type          /      8523 non-null  / object </p>
+ 11  Item_Outlet_Sales    /      8523 non-null  / float64 </p>
+ 12  Sold_Units           /      8523 non-null  / float64 </p>
+dtypes: float64(5), int64(1), object(7)</p> <br>
+
+
+Grafico pastel que muestra la composicion de productos vendidos contra la categoria 'Item Fat Content' 
+
+![alt text](fat.png)
+
+Gráfico de barras que representa una estimación de la tendencia central de las ventas de productos por tiendas.
+
+![Alt text](Gráfico de barras que representa una estimación de la tendencia central de las ventas de productos por tiendas.png)
 
 # Resumen de resultados y recomendaciones. 
 
