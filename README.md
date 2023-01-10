@@ -50,8 +50,12 @@ Grafico pastel que muestra la composicion de productos vendidos contra la catego
 
 Gráfico de barras que representa una estimación de la tendencia central de las ventas de productos por tiendas.
 
-![Alt text](Gráfico de barras que representa una estimación de la tendencia central de las ventas de productos por tiendas.png)
+![alt text](bars.png)
 
 # Resumen de resultados y recomendaciones. 
+
+
+![alt text](Mapa_de_calor.png)
+
 
 El objetivo de este proyecto es crear un modelo de predicción que sea capaz de predecir las ventas totales de los diferentes productos alimenticios que se venden en diversas tiendas. Para predecir las ventas de la empresa se nos ha proporcionado el dataset con la recopilación de informaciones vinculadas a las ventas de productos alimenticios de diferentes supermercados. Dentro del mismo, al realizar un cuadro de correlación entre los datos y la columna a predecir se demostró que existe un bajo porcentaje de correlación entre la mayoría de los datos y la columna a predecir, obteniendo así resultados poco fructíferos donde se mostraba un bajo porcentaje de correlación entre varios de los datos, con excepción del item_MRP el cuál si obtuvo un nivel porcentual aceptable. Sin embargo, después de hacer el modelo de predicción, al momento de ponerlo a prueba, se pudo notar que la data tenía ciertas inconsistencias. Dichas inconsistencias fueron evidenciadas cuando se evaluó el modelo con el método del coeficiente de determinación (r^2), no superaban una precisión de 57%. Por esta razón le recomendamos añadir información valiosa que esté directamente relacionada con las ventas de la organización. Tales como el inventario, las unidades vendidas y la demanda del producto, para poder obtener mejores resultados a la hora de predecir las ventas para los productos alimenticios vendidos en diversas tiendas.
