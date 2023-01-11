@@ -54,7 +54,7 @@ Gráfico de barras que representa una estimación de la tendencia central de las
 
 # Resumen de resultados y recomendaciones. 
 
-
+Mapa de correlación de las columnas del dataset frente a las ventas totales.
 ![alt text](Mapa_de_calor.png)
 
 
